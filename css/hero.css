@@ -1,0 +1,39 @@
+body{
+	background-color: red;
+	font-size: 26px;
+	line-height: 30px;
+}
+
+header{
+	background-color: maroon;
+	text-align: center;
+	padding-top: 30px;
+}
+
+h1, h2{
+	font-family: 'Arvo', serif;
+}
+
+header h1{
+	font-size: 76px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	color: white;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px 20px 100px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+p, li{
+	font-size: 28px;
+}
+
+a:hover{
+	color: cyan;
+}
