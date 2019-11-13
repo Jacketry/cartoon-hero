@@ -1,24 +1,31 @@
 body{
-	background-color: red;
+	background-color: white;
 	font-size: 26px;
 	line-height: 30px;
+	font-family: 'Arial'
 }
+
+/*header styles*/
 
 header{
 	background-color: maroon;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 15px;
 }
 
 h1, h2{
 	font-family: 'Arvo', serif;
+	color: black;
 }
 
 header h1{
 	font-size: 76px;
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	color: white;
+	line-height: 1
 }
+
+/*main styles*/
 
 main{
 	max-width: 800px;
@@ -30,10 +37,31 @@ main img{
 	max-width: 100%;
 }
 
-p, li{
+p{
+	color: black;
+}
+
+li{
 	font-size: 28px;
 }
 
+a{
+	color: red;
+}
+
 a:hover{
-	color: cyan;
+	color: white;
+	background-color: red;
+}
+
+p.footer{
+	background-color: maroon;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
 }
